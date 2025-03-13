@@ -44,8 +44,9 @@ h1, h2, h3 {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+    width: 400px; /* Set a fixed width */
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
     display: block;
     margin: 10px auto;
 }
